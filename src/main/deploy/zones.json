@@ -1,0 +1,114 @@
+{
+  "fieldLength": 16.54,
+  "fieldWidth": 8.07,
+  "zones": [
+    {
+      "name": "Zone0",
+      "action": "PREPARE_SHOOT",
+      "allianceRelative": true,
+      "vertices": [
+        {
+          "x": 0.021,
+          "y": 0.0
+        },
+        {
+          "x": 3.928,
+          "y": 0.062
+        },
+        {
+          "x": 3.928,
+          "y": 8.07
+        },
+        {
+          "x": 0.0,
+          "y": 8.07
+        }
+      ]
+    },
+    {
+      "name": "Zone1",
+      "action": "AUTO_INTAKE",
+      "allianceRelative": true,
+      "vertices": [
+        {
+          "x": 3.949,
+          "y": 1.304
+        },
+        {
+          "x": 3.081,
+          "y": 1.324
+        },
+        {
+          "x": 3.101,
+          "y": 0.062
+        },
+        {
+          "x": 5.768,
+          "y": 0.083
+        },
+        {
+          "x": 5.789,
+          "y": 1.324
+        },
+        {
+          "x": 5.21,
+          "y": 1.324
+        }
+      ]
+    },
+    {
+      "name": "Zone2",
+      "action": "AUTO_INTAKE",
+      "allianceRelative": true,
+      "vertices": [
+        {
+          "x": 6.12,
+          "y": 6.725
+        },
+        {
+          "x": 3.06,
+          "y": 6.87
+        },
+        {
+          "x": 2.998,
+          "y": 8.07
+        },
+        {
+          "x": 6.078,
+          "y": 8.049
+        },
+        {
+          "x": 6.182,
+          "y": 6.746
+        }
+      ]
+    },
+    {
+      "name": "Zone3",
+      "action": "AIM_AT_TARGET",
+      "allianceRelative": true,
+      "vertices": [
+        {
+          "x": 5.293,
+          "y": 0.041
+        },
+        {
+          "x": 8.229,
+          "y": 0.062
+        },
+        {
+          "x": 11.268,
+          "y": 0.062
+        },
+        {
+          "x": 11.227,
+          "y": 8.049
+        },
+        {
+          "x": 5.355,
+          "y": 8.029
+        }
+      ]
+    }
+  ]
+}

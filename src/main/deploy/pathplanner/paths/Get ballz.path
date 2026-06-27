@@ -1,0 +1,180 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.572729606812403,
+        "y": 7.371357100938967
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.80012841603314,
+        "y": 7.464515540187858
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.65886796691608,
+        "y": 6.894924213248239
+      },
+      "prevControl": {
+        "x": 7.645805595935293,
+        "y": 7.720373490851009
+      },
+      "nextControl": {
+        "x": 7.669080976750784,
+        "y": 6.249534367667646
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.65886796691608,
+        "y": 4.072152838911778
+      },
+      "prevControl": {
+        "x": 7.677203134174492,
+        "y": 5.229399436989829
+      },
+      "nextControl": {
+        "x": 7.6531585857508215,
+        "y": 3.7117982352418326
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.431819065439164,
+        "y": 4.072152838911778
+      },
+      "prevControl": {
+        "x": 6.950329748734172,
+        "y": 3.5077504321772164
+      },
+      "nextControl": {
+        "x": 5.569101835665585,
+        "y": 5.011226413483719
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.430702849916863,
+        "y": 7.1911819157163555
+      },
+      "prevControl": {
+        "x": 6.303690290673885,
+        "y": 6.54321320346469
+      },
+      "nextControl": {
+        "x": 4.963619184789286,
+        "y": 7.537871440532489
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.63787732908353,
+        "y": 7.371357100938967
+      },
+      "prevControl": {
+        "x": 4.014515011592955,
+        "y": 7.498035516959042
+      },
+      "nextControl": {
+        "x": 2.6870938077675626,
+        "y": 7.051570324279196
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.6868209452073564,
+        "y": 5.291843548272107
+      },
+      "prevControl": {
+        "x": 2.6405990547563554,
+        "y": 5.537533468381044
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.9970563070404157,
+      "rotationDegrees": -90.0
+    },
+    {
+      "waypointRelativePos": 2.227112532594527,
+      "rotationDegrees": -90.0
+    },
+    {
+      "waypointRelativePos": 6.0,
+      "rotationDegrees": 45.0
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 1.0047806140988373,
+      "maxWaypointRelativePos": 2.3585006359011613,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 5.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "intake_deploy",
+      "waypointRelativePos": 0.3956100109011629,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "intake_hide",
+      "waypointRelativePos": 2.8657453670058164,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "aim_and_shott",
+      "waypointRelativePos": 6.0,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.5,
+    "maxAcceleration": 5.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 45.0
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 45.0
+  },
+  "useDefaultConstraints": true
+}

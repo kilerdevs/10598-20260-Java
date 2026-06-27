@@ -1,0 +1,57 @@
+[
+  {
+    "distance": 1.0,
+    "rpm": 2500,
+    "angle": 50.0
+  },
+  {
+    "distance": 1.5,
+    "rpm": 2800,
+    "angle": 52.0
+  },
+  {
+    "distance": 2.0,
+    "rpm": 3100,
+    "angle": 54.0
+  },
+  {
+    "distance": 2.5,
+    "rpm": 3400,
+    "angle": 56.0
+  },
+  {
+    "distance": 3.0,
+    "rpm": 3700,
+    "angle": 57.0
+  },
+  {
+    "distance": 3.5,
+    "rpm": 4000,
+    "angle": 58.0
+  },
+  {
+    "distance": 4.0,
+    "rpm": 4300,
+    "angle": 59.0
+  },
+  {
+    "distance": 4.5,
+    "rpm": 4600,
+    "angle": 60.0
+  },
+  {
+    "distance": 5.0,
+    "rpm": 4900,
+    "angle": 60.5
+  },
+  {
+    "distance": 5.5,
+    "rpm": 5200,
+    "angle": 61.0
+  },
+  {
+    "distance": 6.0,
+    "rpm": 5500,
+    "angle": 61.5
+  }
+]

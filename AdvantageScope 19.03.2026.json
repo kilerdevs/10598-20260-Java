@@ -1,0 +1,184 @@
+{
+  "hubs": [
+    {
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 928,
+      "state": {
+        "sidebar": {
+          "width": 300,
+          "expanded": [
+            "/AdvantageKit/RealOutputs",
+            "/AdvantageKit",
+            "/AdvantageKit/RealOutputs/Vision/Summary",
+            "/SmartDashboard",
+            "/SmartDashboard/ZoneAction",
+            "/AdvantageKit/RealOutputs/ZoneAction",
+            "/AdvantageKit/RealOutputs/ZoneAction/Zones"
+          ]
+        },
+        "tabs": {
+          "selected": 2,
+          "tabs": [
+            {
+              "type": 0,
+              "title": "",
+              "controller": null,
+              "controllerUUID": "zcb7smrlfafbgynb3cj6qk62e3fwyre6",
+              "renderer": "",
+              "controlsHeight": 0
+            },
+            {
+              "type": 1,
+              "title": "Line Graph",
+              "controller": {
+                "leftSources": [],
+                "rightSources": [],
+                "discreteSources": [],
+                "leftLockedRange": null,
+                "rightLockedRange": null,
+                "leftUnitConversion": {
+                  "autoTarget": null,
+                  "preset": null
+                },
+                "rightUnitConversion": {
+                  "autoTarget": null,
+                  "preset": null
+                },
+                "leftFilter": 0,
+                "rightFilter": 0
+              },
+              "controllerUUID": "ngl7w1xwtyydjos0e7ue263rhd0o3745",
+              "renderer": null,
+              "controlsHeight": 200
+            },
+            {
+              "type": 2,
+              "title": "2D Field",
+              "controller": {
+                "sources": [
+                  {
+                    "type": "robot",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Odometry/Robot",
+                    "logType": "Pose2d",
+                    "visible": true,
+                    "options": {
+                      "bumpers": ""
+                    }
+                  },
+                  {
+                    "type": "trajectory",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/ZoneAction/Zones/Zone0",
+                    "logType": "Pose2d[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#00ff00",
+                      "size": "normal"
+                    }
+                  },
+                  {
+                    "type": "trajectory",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/ZoneAction/Zones/Zone1",
+                    "logType": "Pose2d[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#00ff00",
+                      "size": "normal"
+                    }
+                  },
+                  {
+                    "type": "trajectory",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/ZoneAction/Zones/Zone2",
+                    "logType": "Pose2d[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#00ff00",
+                      "size": "normal"
+                    }
+                  }
+                ],
+                "field": "FRC:2026 Field",
+                "orientation": 0,
+                "size": "large"
+              },
+              "controllerUUID": "53dhd01tmqqd0gsxfrx48l1ipq0hnk3f",
+              "renderer": null,
+              "controlsHeight": 200
+            },
+            {
+              "type": 8,
+              "title": "Joysticks",
+              "controller": [
+                "PS4 Controller",
+                "None",
+                "None",
+                "None",
+                "None",
+                "None"
+              ],
+              "controllerUUID": "xpd1eqqpd5z2naxsfjxhumxnbfv5xaqf",
+              "renderer": null,
+              "controlsHeight": 85
+            },
+            {
+              "type": 3,
+              "title": "3D Field",
+              "controller": {
+                "sources": [
+                  {
+                    "type": "robot",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Odometry/Robot",
+                    "logType": "Pose2d",
+                    "visible": true,
+                    "options": {
+                      "model": "2026 KitBot"
+                    }
+                  },
+                  {
+                    "type": "ghost",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Vision/Summary/RobotPosesAccepted",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {
+                      "model": "2026 KitBot",
+                      "color": "#00ff00"
+                    }
+                  },
+                  {
+                    "type": "gamePiece",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Vision/Summary/TagPoses",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {
+                      "variant": "Fuel"
+                    }
+                  }
+                ],
+                "game": "FRC:2026 Field"
+              },
+              "controllerUUID": "r35ks66imaihdqtm1hbomekqtzs7r05e",
+              "renderer": {
+                "cameraIndex": -1,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  5.9616086763072955,
+                  5.40281149368608,
+                  -7.039988505961472
+                ],
+                "cameraTarget": [
+                  0.6491062670097685,
+                  -0.9197288947945482,
+                  -0.47927472403675137
+                ]
+              },
+              "controlsHeight": 200
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "satellites": [],
+  "version": "26.0.0"
+}

@@ -1,0 +1,2 @@
+Shooter 1 CAN: 61
+Shooter 2 CAN: 62
